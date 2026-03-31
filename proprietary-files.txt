@@ -355,12 +355,6 @@ vendor/etc/camera/vidhance_calibration
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
 
-# Charger (HVDCP)
-vendor/bin/hvdcp_opti
-vendor/bin/init.qti.chg_policy.sh
-vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
-vendor/etc/charger_fstab.qti
-
 # Charger (Mi Turbo Charge)
 vendor/bin/batterysecret
 vendor/etc/init/init.batterysecret.rc
